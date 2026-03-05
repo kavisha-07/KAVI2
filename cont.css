@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(246, 155, 170);
+}
+
+.style{
+    width: 1370px;
+    height: 600px;
+    background-color: white;
+    box-shadow: 10px 10px 5px rgb(106, 102, 102);
+    margin-top: 60px;
+    margin-left: 80px;
+}
+
+nav a{
+    color: gray;
+    text-decoration: none;
+    font-size: 25px;
+    padding-left: 100px;  
+    font-weight: bold;
+    font-family: monospace;
+}
+
+nav{
+    margin-top: -580px;
+    height: 80px;
+    margin-left: 200px;
+}
+
+nav a:hover{
+    color: rgb(65, 63, 63);
+    text-decoration: underline;
+}
+
+nav .active{
+    color: black;
+    text-decoration: underline;
+}
+
+nav span{
+    background-color: rgb(107, 95, 101);
+    color: white;
+    padding: 4px 19px;
+    margin-left: 970px;
+    border-radius: 10px;
+}
+  
+nav span:hover{
+    background-color: black;
+    color: white;
+}
+
+.logo img{
+    width: 120px;
+    height: 140px;
+    margin-left: 100px;
+    margin-top: -75px;
+    border-radius: 75px;
+}
+
+h1{
+    margin-top: -10px;
+    margin-left: 330px;
+    color: rgb(223, 66, 92);
+    font-size: 33px;
+}
+
+p{
+    text-align: center;
+    margin-right: 610px;
+    font-size: 17px;
+    font-family: cursive;
+    font-weight: 600;
+}
+
+.cont i{
+    margin-left: 310px;
+    padding: 10px;
+    font-size: 25px;
+    color: rgb(172, 0, 29);
+    font-weight: 600;
+}
+
+.cont h4{
+    margin-left: 380px;
+    font-size: 22px;
+    color: rgb(71, 70, 70);
+}
+
+h2{
+    margin-top: -355px;
+    margin-left: 990px;
+    color: rgb(223, 66, 92);
+    font-size: 33px; 
+}
+
+h3{
+    text-align: center;
+    margin-left: 50%;
+    font-size: 25px;
+}
+
+h5{
+    text-align: center;
+    margin-left: 50%;
+    font-size: 27px;
+    color: rgb(172, 0, 29);
+}
+
+/* phone */
+
+@media (min-width: 310px) and (max-width: 480px) {
+    
+    body{
+        background-color: rgb(246, 155, 170);
+    }
+
+    .style{
+        width: 328px;
+        height: 645px;
+        background-color: white;
+        box-shadow: 10px 10px 5px rgb(106, 102, 102);
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+
+    nav a{
+        color: gray;
+        text-decoration: none;
+        font-size: 13.5px;
+        padding-left: 6px;  
+        font-weight: bold;
+        font-family: monospace;
+    }
+
+    nav{
+        margin-top: -620px;
+        height: 80px;
+        margin-left: 84px;
+    }
+
+    nav a:hover{
+        color: rgb(65, 63, 63);
+        text-decoration: underline;
+    }
+
+    nav .active{
+        color: black;
+        text-decoration: underline;
+    }
+
+    nav span{
+        background-color: rgb(107, 95, 101);
+        color: white;
+        margin-left: 140px;
+        border-radius: 10px;
+
+    }
+    
+    nav span:hover{
+        background-color: black;
+        color: white;
+    }
+
+    .logo img{
+        width: 60px;
+        height: 80px;
+        margin-left: 25px;
+        margin-top: -205px;
+        margin-bottom: 20px;
+        border-radius: 75px;
+    }
+        
+    h1{
+        margin-top: -35px;
+        margin-left: 115px;
+        color: rgb(223, 66, 92);
+        font-size: 18px;
+    }
+
+    p{
+        text-align: center;
+        margin-right: 50px;
+        margin-left: 60px;
+        margin-top: -10px;
+        font-size: 14px;
+        font-family: cursive;
+        font-weight: 700;
+    }
+
+    .cont i{
+        margin-left: 70px;
+        margin-top: -30px;
+        padding: 5px;
+        font-size: 17px;
+        color: rgb(172, 0, 29);
+        font-weight: 600;
+    }
+
+    .cont h4{
+        margin-left: 130px;
+        font-size: 16px;
+        color: rgb(71, 70, 70);
+    }
+
+    h2{
+        margin-top: 10px;
+        margin-left: 95px;
+        color: rgb(223, 66, 92);
+        font-size: 18px; 
+    }
+
+    h3{
+        text-align: center;
+        margin-left: 10px;
+        font-size: 16px;
+        margin-top: 1.5px;
+    }
+
+    h5{
+        text-align: center;
+        margin-left: 10px;
+        margin-top: -50px;
+        font-size: 18px;
+        color: rgb(172, 0, 29);
+    }
+}
+
+/* tab */
+
+@media (min-width: 481px) and (max-width: 900px){
+    
+    body{
+        background-color: rgb(246, 155, 170);
+    }
+
+    .style{
+        width: 730px;
+        height: 600px;
+        background-color: white;
+        box-shadow: 10px 10px 5px rgb(106, 102, 102);
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+        
+    nav a{
+        color: gray;
+        text-decoration: none;
+        font-size: 20px;
+        padding-left: 50px;  
+        font-weight: bold;
+        font-family: monospace;
+    }
+
+    nav{
+        margin-top: -580px;
+        height: 80px;
+        margin-left: 180px;
+    }
+
+    nav a:hover{
+        color: rgb(65, 63, 63);
+        text-decoration: underline;
+    }
+
+    nav .active{
+        color: black;
+        text-decoration: underline;
+    }
+
+    nav span{
+        background-color: rgb(107, 95, 101);
+        color: white;
+        padding: 4px 19px;
+        margin-left: 410px;
+        border-radius: 10px;
+    }
+    
+    nav span:hover{
+        background-color: black;
+        color: white;
+    }
+
+    .logo img{
+        width: 90px;
+        height: 110px;
+        margin-left: 40px;
+        margin-top: -85px;
+        border-radius: 75px;
+    }
+        
+    h1{
+        margin-top: 15px;
+        margin-left: 150px;
+        color: rgb(223, 66, 92);
+        font-size: 25px;
+    }
+
+    p{
+        text-align: center;
+        margin-right: 420px;
+        margin-left: 100px;
+        font-size: 17px;
+        font-family: cursive;
+        font-weight: 600;
+    }
+
+    .cont i{
+        margin-top: -20px;
+        margin-left: 130px;
+        padding: 10px;
+        font-size: 22px;
+        color: rgb(172, 0, 29);
+        font-weight: 600;
+    }
+
+    .cont h4{
+        margin-left: 180px;
+        font-size: 21px;
+        color: rgb(71, 70, 70);
+    }
+
+    h2{
+        margin-top: -368px;
+        margin-left: 475px;
+        color: rgb(223, 66, 92);
+        font-size: 25px; 
+    }
+
+    h3{
+        text-align: center;
+        margin-left: 50%;
+        font-size: 22px;
+    }
+
+    h5{
+        text-align: center;
+        margin-left: 50%;
+        margin-bottom: 20px;
+        font-size: 23px;
+        color: rgb(172, 0, 29);
+    }
+
+}
